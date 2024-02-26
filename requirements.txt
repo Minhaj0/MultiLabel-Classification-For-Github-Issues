@@ -1,3 +1,4 @@
+User needs to install these packages to run our project
 pip install --user -U nltk
 pip install --user -U numpy
 pip install json
