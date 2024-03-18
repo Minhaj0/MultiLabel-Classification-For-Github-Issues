@@ -1,6 +1,6 @@
-We've uploaded some large files to our Google Drive due to size limitations. You can access them through the following link:
+We've uploaded some large files to our Amazon S3 bucket due to size limitations. You can access them through the following link:
 
-Drive Link: (drive.google.com/your-drive-link)
+
 
 Feel free to download and use these files as needed.
 
