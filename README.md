@@ -16,7 +16,7 @@ To collect data for the project, follow these steps:
 (3) Run the code from DataMining.ipynb to retrieve data in JSON format using the requests library.
 (4) Save the obtained data into a text file for future use.
 
-## Execution of MultiLabel Classification For GitHub Issues.ipynb file needed for remaining steps
+# Execution of MultiLabel Classification For GitHub Issues.ipynb file needed for remaining steps
 
 2. Data Preprocessing
 For data preprocessing, perform the following actions:
