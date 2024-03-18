@@ -1,6 +1,6 @@
 We've uploaded some large files to our Amazon S3 bucket due to size limitations. You can access them through the following link:
 
-
+https://githubissuesdata.s3.us-east-2.amazonaws.com/data.txt
 
 Feel free to download and use these files as needed.
 
@@ -13,11 +13,14 @@ collection to model training and testing.
 To collect data for the project, follow these steps:
 (1) Obtain the links of the repository issues from the GitHub API.
 (2) Save the links into a gitApiLinks.csv named file.
-(3) Run the provided code to retrieve data in JSON format using the requests library.
+(3) Run the code from DataMining.ipynb to retrieve data in JSON format using the requests library.
 (4) Save the obtained data into a text file for future use.
+
+Execution of MultiLabel Classification For GitHub Issues.ipynb file needed for remaining steps
+
 2. Data Preprocessing
 For data preprocessing, perform the following actions:
-(1) Read the data from the saved text file.
+(1) Read the saved text file's data or just use our Amazon S3 link to use the dataset we already mined.
 (2) Run the preprocessing code to extract relevant labels and format the data.
 3. Model Training and Testing
 To train and test the classification model, follow these steps:
