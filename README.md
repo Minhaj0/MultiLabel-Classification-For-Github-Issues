@@ -26,22 +26,20 @@ For data preprocessing, perform the following actions:
 To train and test the classification model, follow these steps:
 (1) Run the code for model training, which leverages advanced machine-learning techniques 
 such as natural language processing and deep learning.
-(2) Evaluate the model using metrics such as precision, recall, and F1-score.
+(2) Evaluate the model using precision, recall, and F1-score metrics.
 4. Recommendation System
 To use the recommendation system, follow these steps:
 (1) Run the code for the recommendation system, which utilizes the trained classification model.
-(2) Input relevant data, and the system will provide personalized github-issue suggestions.
+(2) Input relevant data; the system will provide personalized github-issue suggestions.
 Note: Ensure that all dependencies, including Python libraries, are installed before running the 
 code. Refer to the project documentation for specific requirements.
 5. Example Commands
 Here are example commands for each step:
 # Data Collection
-python collect_data.py filename.csv
+Add repo links to gitApiLinks.csv saved in the same location
 # Data Preprocessing
-python preprocess_data.py data.txt
+Used nltk.corpus library for data preprocessing
 # Model Training
-python train_model.py
+MultiOutputClassifier and RandomForestClassifier used for model Training
 # Model Testing
-python test_model.py
-# Recommendation System
-python recommend_issues.py
+multi_target_forest.predict used for testing issues
