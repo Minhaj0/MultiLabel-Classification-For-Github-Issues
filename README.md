@@ -9,7 +9,7 @@ Feel free to download and use these files as needed.
 How to run our code to replicate the study result
 This section provides a step-by-step guide for users to replicate the project workflow, from data collection to model training and testing.
 1. Data Collection
-2. To collect data for the project, follow these steps:
+2. To collect data for the project, follow these steps: <br />
 (1) Obtain the links of the repository issues from the GitHub API. <br />
 (2) Save the links into a gitApiLinks.csv named file. <br />
 (3) Run the code from DataMining.ipynb to retrieve data in JSON format using the requests library. <br />
